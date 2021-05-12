@@ -1,11 +1,16 @@
-<%= flash[:notice] %>
-<div class="text-title">
+<p id="notice">
+ <%= notice %>
+</p>
+<div class="show-title">
   <span>Title:</span>
   <span><%= @book.title %></span>
 </div>
-
-<div class="text-body">
+<div class="show-body">
   <span>Body:</span>
   <span><%= @book.body %></span>
 </div>
-<%= link_to 'edit', edit_book_path(@book.id) %>
+<br>
+  <span><%= link_to 'Edit', edit_book_path(@book.id), class: "btn-primary" %></span>
+  <span>|</span>
+  <span><%= link_to 'Back', books_path, class: "btn-primary" %></span>
+</br>

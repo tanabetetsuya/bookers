@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+
+.top-text1{
+  text-indent: 3em;
+}
+.top-text2{
+  text-indent: 3em;
+}
+.top-link{
+  text-indent: 3em;
+}
+.show-title{
+  text-indent: 3em;
+  padding-bottom: 30px;
+}
+.show-body{
+  text-indent: 3em;
+}
+.notice{
+  text-indent: 3em;
+}
+.btn-primary{
+  color: grey;
+}
+.btn-primary:hover{
+  background-color: black;
+  color: white;
+}
+.btn:action{
+  background-color: blue;
+  color: white;
+}
+.bookers{
+  font-size: 20px;
+}
